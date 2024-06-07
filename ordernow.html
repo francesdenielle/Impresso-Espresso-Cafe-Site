@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order Now</title>
+	<link rel="stylesheet" type="text/css" href="css/styles4.css">
+        <style>
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+            }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+            background-color: #aa0404;
+            color: white;
+            }
+
+            /* Right-aligned section inside the top navigation */
+            .topnav-right {
+            float: right;
+            }
+
+            body{
+                background-color: #bf803d;
+                height: 100vh;
+                width: auto;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .main{
+                margin: auto;
+                
+            }
+            nav{
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                min-height: 65px;
+                background-image: linear-gradient(45deg, yellow 30%, green);
+                box-shadow: 0 10px 15px rgba(0,0,0,0.8);
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+        
+
+            }
+            .logo img{
+                position: relative;
+                float: left;
+                width: 65px;
+                height: auto;
+            }
+            h3{
+                font-size: 27px;
+                font-family: Lucida Handwriting;
+            }
+            .main{
+                position: relative;
+                top: 120px;
+                left: 30px;
+            }
+            .titleProd h1{
+                font-family: Bahnschrift SemiBold;
+                color: rgb(235, 181, 149);
+                padding: 20px 10px;
+                font-size: 6em;
+                background: rgb(99, 52, 13);
+                border-radius: 40px/80px; /* horizontal radius / vertical radius */
+
+            }
+
+            .una {
+                
+            width: 70%;
+            }
+
+
+            .paragraph {
+
+                text-align: justify;
+                font-family: Bahnschrift SemiBold;
+                color: rgb(233, 213, 203);
+                padding: 20px 10px;
+                font-size: 1.3em;
+
+            }
+
+            .foto{
+                border-radius: 20px;
+            }
+            .main p{
+                text-align: justify;
+            }
+            .prodDesc{
+                position: relative;
+                padding: 20px 20px;
+                border-radius: 9px 60px 9px;
+
+                
+            }
+            .pdesign{
+                border-radius: 9px 60px 9px;
+                padding: 20px 20px;
+                background-image: linear-gradient(45deg, rgb(130, 19, 11));
+                box-shadow: 0 10px 15px rgba(66, 33, 6, 0.8);
+                font-weight: bold;
+                font-family:Bahnschrift Light;
+                    }
+            .purchase {
+            padding-bottom: 30px;
+            padding-top: 20px;
+            }
+            .checkout{
+                position:fixed;
+            }
+            .checkout table{
+                position: fixed;
+                right: 20px;
+                bottom: 120px;
+                width: 510px;
+                padding: 10px 10px;
+            height: 360px;
+            border-radius: 25px;
+            background:yellowgreen;
+            }
+            .checkout td p{
+                text-align: right;
+                position: relative;
+                top: 7px ;
+                font-size: 17px;
+            }
+            .regbuy h1{
+                font-weight: bold;
+                font-family:Bahnschrift SemiBold ;
+                color: rgb(255, 255, 246);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 20px;
+                border: #FD8034 3px solid;
+            }
+            .input-qty{
+                width: 24px;
+                height: 24px;
+                border: 2px solid green;
+                border-radius: 10px 10px;
+                border-width: 3px;
+            }
+            .input-field {
+
+                padding-left: 40px;
+                width: 290px;
+                height: 30px;
+                display: block;
+                margin-bottom: -11px;
+                border: 2px solid transparent;
+                border-radius: 15px;
+                background-color: #fff;
+            }
+            .btn{
+                position: relative;
+                left: 30px;
+                margin-right: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 16px;
+                color: white;
+                border: 2px solid transparent;
+                border-radius: 20px 20px;
+                background-color: #FD8034;
+                transition: 0.5s;
+            }
+            .btn:hover {
+                background-color: yellow;
+                color: #000;
+            }
+            .row3{
+                position: relative;
+                left: 300px;
+            }
+            .checkout{
+                position: relative;
+                left: 690px;
+            }
+            [type="checkbox"]{
+                
+                position: relative;
+                top: 9px;
+                width: 20px;
+                height: 30px;
+            }
+            .pamagat img{
+                position: fixed;
+                left: 1410px;
+                top: 260px;
+                width: 26%;
+            }
+            .foto{
+                transform: rotate(-15deg);
+                width: 90%;
+                height: auto;
+                border-radius: 50%;
+                transition: 0.3s ease-in-out;
+                
+            }
+            .foto:hover{
+                transform: scale(1.0) rotate(0);
+            }
+
+        </style>
+</head>
+
+<body>
+    <div class="topnav">
+		<a href="home.html">Home</a>
+		<a href="ourcafe.html">Our Cafe</a>
+		<a href="products.html">Products</a>
+		<a href="minigallery.html">Mini Gallery</a>
+		<div class="topnav-right">
+		  <a class="active" href="ordernow.html">Order Now</a>
+		  <a href="contactus.html">Contact Us</a>
+		</div>
+	</div>
+   
+    <div class="main">
+
+        <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+                <th colspan=3 class="titleProd"><h1>Menu</h1><center></th>      
+            </tr>
+
+            <tr>
+                <td colspan=3 class="paragraph"><p><center>Choose what to eat<br>
+                Products may vary in quantity and sizes<br>
+                </center></p></td>
+            </tr>
+
+            </hr>
+
+            <!-- Product set 1-->
+
+            <tr>
+                <td width=600><center><img  class="foto" width="90%" src="Café Terrace at Night  .png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Tree Roots.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Sunflower.png"></center></td>
+            </tr>
+
+            <tr>
+                <td width=600 class="prodName"><center><h3>Cafe Terrace at Night (Black Coffee Macchiato)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Tree Roots (Matcha Espresso)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Sunflower (Cafe Latte)</h3></center></td>
+           </tr>
+
+           <tr>      
+                <td width=600 class="prodDesc"><center><p class="pdesign">Café Terrace at Night is a Vincent Van Gogh art, and we chose the Black Coffee Macchiato to reference the night and the light that can be seen in the artwork. </p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">Tree Roots is a Vincent Van Gogh art, and we chose the Matcha Espresso to reference the colors of the artworks green and brown as the tree, ground, and roots.</p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">Sunflower is a Vincent Van Gogh art, and we chose Latte for it because of how the artwork compliments the color brown to its yellowish color.</p></center></td>
+           </tr>
+
+           <tr class="purchase">
+                <td class="purchase"><center><input type="checkbox" onclick=txtArteReg.value=59>Small(16oz) - ₱110.00
+                <input type=hidden name=txtArteReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" size=1 name=txtQtyArteReg  value="  0" >
+             
+                <br><br>
+        
+                <input type="checkbox" onclick=txtArteGran.value=69>&nbspMedium(22oz) - ₱120.00
+                <input type=hidden name=txtArteGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyArteGran>
+                </center></td>
+            
+                <td class="purchase"><center><input type="checkbox" onclick=txtBingsuReg.value=65>&nbspMedium(16oz) - ₱135.00
+                <input type=hidden name=txtBingsuReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuReg>
+             
+                <br><br>
+                
+                <input type="checkbox" onclick=txtBingsuGran.value=80>&nbspLarge(22oz) - ₱150.00
+                <input type=hidden name=txtBingsuGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuGran>
+                </center></td>
+            
+                <td class="purchase"><center><input type="checkbox" onclick=txtSuikaReg.value=59>&nbspMedium(16oz) - ₱110.00
+                <input type=hidden name=txtSuikaReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaReg>
+             
+                <br><br>
+                
+                <input type="checkbox" onclick=txtSuikaGran.value=69>&nbspLarge(22oz) - ₱125.00
+                <input type=hidden name=txtSuikaGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaGran>
+                </center></td>
+           </tr>
+        
+            </hr>
+            
+            <!-- Product set 2-->
+
+            <tr>
+                <td width=600><center><img  class="foto" width="90%" src="Poppies.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Springtime.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Water Lilies.png"></center></td>
+            </tr>
+            
+            <tr>
+                <td width=600 class="prodName"><center><h3>Poppies (Iced Coffee)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Springtime (Affogato)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Water Lillies (Blue Butterfly Latte)</h3></center></td>
+           </tr>
+           
+           <tr>
+                <td width=600 class="prodDesc"><center><p class="pdesign">Poppy Fields near Argenteuil is a Claude Monet art, and we chose the iced coffee to reference the field and the milkfish-looking sky that can be seen in the artwork.</p></center></td>
+                <td width=600 class="prodDesc"><center><p class="pdesign">Springtime is a Claude Monet art, and we chose affogato to reference the name of the art where you can taste the feeling of cold after winter and the warm before summer.</p></center></td>
+                <td width=600 class="prodDesc"><center><p class="pdesign">The Water Lillie Pond by Claude Monet. We chose a blue butterfly latte to represent the sunlight as the cream and the water lily flowers as butterfly pea flowers which gives the latte a blue butterfly color.</p></center></td>
+           </tr>
+
+           <tr class="purchase">
+                <td class="purchase"><center><input type="checkbox" onclick=txtArteReg.value=59>&nbspMedium(16oz) - ₱125.00
+                <input type=hidden name=txtArteReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" size=1 name=txtQtyArteReg  value="  0" >
+             
+                <br><br>
+
+                <input type="checkbox" onclick=txtArteGran.value=69>&nbspLarge(22oz) - ₱140.00
+                <input type=hidden name=txtArteGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyArteGran>
+                </center></td>
+            
+                <td class="purchase"><center><input type="checkbox" onclick=txtBingsuReg.value=65>&nbspMedium(16oz) - ₱150.00
+                <input type=hidden name=txtBingsuReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuReg>
+             
+                <br><br>
+
+                <input type="checkbox" onclick=txtBingsuGran.value=80>&nbspLarge(22oz) - ₱175.00
+                <input type=hidden name=txtBingsuGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuGran>
+                </center></td>
+            
+                <td class="purchase"><center><input type="checkbox" onclick=txtSuikaReg.value=59>&nbspMedium(16oz) - ₱135.00
+                <input type=hidden name=txtSuikaReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaReg>
+             
+                <br><br>
+
+                <input type="checkbox" onclick=txtSuikaGran.value=69>&nbspLarge(22oz) - ₱150.00
+                <input type=hidden name=txtSuikaGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaGran>
+                </center></td>
+          
+        </hr>
+           
+        <!-- Product set 3-->
+           
+            <tr>
+                <td width=600><center><img  class="foto" width="90%" src="Wheat Field with Crows.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Landscape with Snow.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Wheat Field with Cypresses.png"></center></td>
+            </tr>
+        
+            <tr>
+                <td width=600 class="prodName"><center><h3>Wheat Field with Crows (Banana Bread)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Landscape with Snow (Carrot Bread)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Wheat Field with Cypresses (Bread with Strawberry Jam)</h3></center></td>
+            </tr>
+       
+            <tr> 
+                <td width=600 class="prodDesc"><center><p class="pdesign">Wheat Field with Crows is a Vincent Van Gogh art, and we chose the Banana Bread to reference what can be seen in the artwork, which is a wheat field and crows.</p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">Landscape with Snow is a Vincent Van Gogh art, and we chose the Carrot Bread with Walnuts to reference the artwork because it can be seen that they are much alike as its cream is like the Snow.</p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">Wheat Field with Cypresses is a Vincent Van Gogh art, and we chose the regular loaf or bread to reference the art because of its vibrant color and simpleness.</p></center></td>
+            </tr>
+
+            <tr class="purchase">
+                <td class="purchase"><center><input type="checkbox" onclick=txtArteReg.value=59>&nbspMini - ₱60.00
+                <input type=hidden name=txtArteReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" size=1 name=txtQtyArteReg  value="  0" >
+         
+                <br><br>
+                <input type="checkbox" onclick=txtArteGran.value=69>&nbspJumbo - ₱120.00
+                <input type=hidden name=txtArteGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyArteGran>
+                </center></td>
+        
+                <td class="purchase"><center><input type="checkbox" onclick=txtBingsuReg.value=65>&nbspMini - ₱75.00
+                <input type=hidden name=txtBingsuReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuReg>
+         
+                <br><br>
+                <input type="checkbox" onclick=txtBingsuGran.value=80>&nbspJumbo - ₱150.00
+                <input type=hidden name=txtBingsuGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuGran>
+                </center></td>
+        
+                <td class="purchase"><center><input type="checkbox" onclick=txtSuikaReg.value=59>&nbspMini - ₱55.00
+                <input type=hidden name=txtSuikaReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaReg>
+         
+                <br><br>
+                <input type="checkbox" onclick=txtSuikaGran.value=69>&nbspJumbo - ₱110.00
+                <input type=hidden name=txtSuikaGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaGran>
+                </center></td>
+
+        </hr>
+
+       <!-- Product set 4-->
+
+            <tr>
+                <td width=600><center><img  class="foto" width="90%" src="The Pink Peach Tree.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="The Starry Night.png"></center></td>
+                <td width=600><center><img  class="foto" width="90%" src="Pink Roses.png"></center></td>
+            </tr>
+
+            <tr>
+                <td width=600 class="prodName"><center><h3>The Pink Peach Tree (Peach Cobbler Pie)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>The Starry Night (Blueberry Cheesecake)</h3></center></td>
+                <td width=600 class="prodName"><center><h3>Pink Roses (Apple Tart)</h3></center></td>
+            </tr>
+
+            <tr>
+                <td width=600 class="prodDesc"><center><p class="pdesign">The Peach Pink Tree by Vincent Van Gogh. We chose peach cobbler pie to reference the tree in the painting, which is the peach-pink tree, and at the back of the tree are white clouds representing the vanilla ice cream on the top of the pie.</p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">The Starry Night is a Vincent Van Gogh art. We chose the blueberry cheesecake to reference the blue night sky and the yellowish color of the cream cheese as the stars and moon.</p></center></td>
+                <td width=600 class="prodDesc"><center><p  class="pdesign">Pink Roses is a Vincent Van Gogh art. We chose rose apple tart to reference the pink roses, which can be seen in the painting.</p></center></td>
+            </tr>
+ 
+            <tr class="purchase">
+                <td class="purchase"><center><input type="checkbox" onclick=txtArteReg.value=59>&nbspPiece(One Slice) - ₱175.00
+                <input type=hidden name=txtArteReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" size=1 name=txtQtyArteReg  value="  0" >
+         
+                <br><br>
+
+                <input type="checkbox" onclick=txtArteGran.value=69>&nbspWhole(Six Slices) - ₱1050.00
+                <input type=hidden name=txtArteGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyArteGran>
+                </center></td>
+
+                <td class="purchase"><center><input type="checkbox" onclick=txtBingsuReg.value=65>&nbspPiece(One Slice) - ₱150.00
+                <input type=hidden name=txtBingsuReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuReg>
+         
+                <br><br>
+
+                <input type="checkbox" onclick=txtBingsuGran.value=80>&nbspWhole(Six Slices) - ₱900.00
+                <input type=hidden name=txtBingsuGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtyBingsuGran>
+                </center></td>
+        
+                <td class="purchase"><center><input type="checkbox" onclick=txtSuikaReg.value=59>&nbspPiece(One Slice) - ₱125.00
+                <input type=hidden name=txtSuikaReg size=5 value=0> &nbsp&nbsp&nbsp&nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaReg>
+         
+                <br><br>
+                <input type="checkbox" onclick=txtSuikaGran.value=69>&nbspWhole(Six Slices) - ₱750.00
+                <input type=hidden name=txtSuikaGran size=5 value=0> &nbsp&nbsp&nbsp &nbspQty:
+                <input type=text class="input-qty" value="  0" size=1 name=txtQtySuikaGran>
+                </center></td>         
+      
+     
+      </table> 
+      
+      <br><br>
+
+    </hr>
+
+    </div>
+    <br><br><br><br><br>
+
+    <footer align="center">&copy; Copyright 2022 Impresso Espresso</footer>
+    
+   </body>
+</html>

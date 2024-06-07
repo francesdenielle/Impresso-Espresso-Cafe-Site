@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" type="text/css" href="css/styles4.css">
+        <style>
+              .topnav {
+              background-color: #333;
+              overflow: hidden;
+            }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+            background-color: #aa0404;
+            color: white;
+            }
+
+            /* Right-aligned section inside the top navigation */
+            .topnav-right {
+            float: right;
+            }
+
+            .header {
+            padding: 60px;
+            text-align: center;
+            background: #dd6231;
+            color: #f4c695;
+            font-size: 30px;
+            }
+            body{
+            background-color: #c49e76;
+            height: 100vh;
+            width: auto;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            font-family: arial;
+            margin: 0;
+            padding: 0;
+            }
+
+            div.gallery {
+            background-color: #f4c695;
+            border: 1px solid #f4c695;
+            border-radius: 25px;
+            }
+
+            div.gallery:hover {
+            border: 1px solid #73583c;
+                       }
+
+            div.gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 25px
+            }
+
+            div.desc {
+            padding: 15px;
+            text-align: center;
+            }
+
+            * {
+            box-sizing: border-box;
+            }
+
+            .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+            }
+
+            @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+            }
+
+            @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+            }
+
+            .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="ourcafe.html">Our Cafe</a>
+      <a href="products.html">Products</a>
+      <a class="active" href="minigallery.html">Mini Gallery</a>
+		<div class="topnav-right">
+      <a href="ordernow.html">Order Now</a>
+      <a href="contactus.html">Contact Us</a>
+		</div>
+	  </div>
+
+    <div class="header">
+        <h1>Mini Gallery</h1>
+        <p>"Your Virtual Trip to Impressionist and Expressionist Artworks!"</p>
+    </div>
+
+    <hr/>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/franz-marc/blue-horse-i-1911">
+            <img src="Blue Horse I.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Blue Horse I<br>
+              <br>
+              <b>Name of artist:</b> Franz Marc<br>
+              <br>
+              <b>Description:</b> Blue Horse I is an oil painting by Franz Marc executed in 1911. It is one of the painter's most famous paintings and is part of the collection of the Städtische Galerie im Lenbachhaus in Munich. Blue Horse I in symbolically bound to certain of the originating conceptions of the contemporaneous Blue rider group: in the symbol of the horse as a vehicle of breakthrough, in the emphasis on the spirituality of blue, and in the idea of spirituality battling materialism.
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/edvard-munch/the-scream-1893">
+            <img src="The Scream.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> The Scream<br>
+              <br>
+              <b>Name of artist:</b> Edvard Munch<br>
+              <br>
+              <b>Description:</b> Throughout his artistic career, Munch focused on scenes of death, agony, and anxiety in distorted and emotionally charged portraits, all themes and styles that would be adopted by the Expressionists. Here, in Munch's most famous painting, he depicts the battle between the individual and society. The setting of The Scream was suggested to the artist while walking along a bridge overlooking Oslo; as Munch recalls, "the sky turned as red as blood. I stopped and leaned against the fence...shivering with fear.
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/edvard-munch/night-1890">
+            <img src="Night in St. Cloud.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Night in St. Cloud<br>
+              <br>
+              <b>Name of artist:</b> Edvard Munch<br>
+              <br>
+              <b>Description:</b> Night in St. Cloud reveals the immediate influence of Post-Impressionists Van Gogh and Toulouse-Lautrec, whose many portraits of solitary figures or empty rooms inform this canvas. Munch's tribute to his father is composed of a darkened, seemingly hallowed room bathed in crepuscular light, indeed a space occupied only by shadows and stillness. The rendition is befitting of their tense relationship.
+          </div>
+        </div>
+      </div>
+ 
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/wassily-kandinsky/blue-mountain-1908">
+            <img src="Der Blaue Berg (The Blue Mountain).png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Der Blaue Berg (The Blue Mountain)<br>
+              <br>
+              <b>Name of artist:</b> Wassily Kadinsky<br>
+              <br>
+              <b>Description:</b> In this work, the influence of the Fauves on Kandinsky's color palette is apparent as he distorted colors and moved away from the natural world. He presented a bright blue mountain, framed by a red and yellow tree on either side. In the foreground, riders on horseback charge through the scene. At this stage in Kandinsky's career, Saint John's Book of Revelation became a major literary source for his art, and the riders signify the four horsemen of the apocalypse. The horsemen, although an indicator of the mass destruction of the apocalypse, also represent the potential for redemption afterward.
+          </div>
+        </div>
+      </div>
+ 
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/claude-monet/impression-sunrise">
+            <img src="Impression, Sunrise.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Impression, Sunrise<br>
+              <br>
+              <b>Name of artist:</b> Claude Monet<br>
+              <br>
+              <b>Description:</b> Impression, Sunrise is undoubtedly Claude Monet's most famous creation but it is also the work to know from the Impressionist movement because it's the namesake! Completed in 1873, it serves as a place holder in the history of art and set the stage for thousands of works to come.
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="https://www.wikiart.org/en/claude-monet/the-artists-garden-at-giverny-1900">
+              <img src="The Artist's Garden at Giverny.png" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> The Artist's Garden at Giverny<br>
+                <br>
+                <b>Name of artist:</b> Claude Monet<br>
+                <br>
+                <b>Description:</b> By 1900, Claude Monet had been living in the Paris suburb of Giverny for almost two decades. In that time, he was able to completely transform the land to suit his taste. Monet did all this to create his own artistic oasis where he could paint nature as he saw it. This painting acts as an example of how we can use the resources that are available to us and that creativity can lie as close as the garden outside our homes.
+            </div>
+          </div>
+        </div>
+  
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/franz-marc/fighting-forms-1914">
+            <img src="Fighting Forms.png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Fighting Forms<br>
+              <br>
+              <b>Name of artist:</b> Franz Marc<br>
+              <br>
+              <b>Description:</b> Fighting Forms has sometimes been translated as Forms in Combat, from its original German title of Kampfende Formen. The clear division in this painting represents WWI, or good against evil as much of the propaganda on both sides would try to portray. Painted at the start of the Great War, Fighting Forms (1914) is clearly the product of a country at war.
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/wassily-kandinsky/improvisation-3-1909">
+            <img src="Der Blaue Reiter (The Blue Rider).png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Der Blaue Reiter (The Blue Rider)<br>
+              <br>
+              <b>Name of artist:</b> Wassily Kadinsky<br>
+              <br>
+              <b>Description:</b> This breakthrough work is a deceptively simple image - a lone rider racing across a landscape - yet it represented a decisive moment in Kandinsky's developing style. In this painting, he demonstrated a clear stylistic link to the work of the Impressionists, like Claude Monet, particularly evident in the contrasts of light and dark on the sun-dappled hillside. The ambiguity of the form of the figure on horseback rendered in a variety of colors that almost blend together foreshadow his interest in abstraction. The theme of the horse and rider reappeared in many of his later works. For Kandinsky this motif signified his resistance against conventional aesthetic values as well as the possibilities for a purer, more spiritual life through art.
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1889">
+            <img src="The Starry Night (2).png" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> The Starry Night<br>
+              <br>
+              <b>Name of artist:</b> Vincent Van Gogh<br>
+              <br>
+              <b>Description:</b> Starry Night is often considered to be Van Gogh's pinnacle achievement. Unlike most of his works, Starry Night was painted from memory, and not out in the landscape. The emphasis on interior, emotional life is clear in his swirling, tumultuous depiction of the sky - a radical departure from his previous, more naturalistic landscapes. Here, Van Gogh followed a strict principal of structure and composition in which the forms are distributed across the surface of the canvas in an exact order to create balance and tension amidst the swirling torsion of the cypress trees and the night sky.
+          </div>
+        </div>
+      </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.wikiart.org/en/vincent-van-gogh/the-starry-night-1888-2">
+          <img src="Starry Night Over the Rhône.png" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Starry Night Over the Rhône<br>
+            <br>
+            <b>Name of artist:</b> Vincent Van Gogh<br>
+            <br>
+            <b>Description:</b> Van Gogh seems to have been particularly enchanted by the night sky. "The sky is aquamarine, the water is royal blue, the ground is mauve. The town is blue and purple. The gas is yellow and the reflections are russet gold descending down to green-bronze. On the aquamarine field of the sky the Great Bear is a sparkling green and pink, whose discreet paleness contrasts with the brutal gold of the gas. Two colorful figurines of lovers in the foreground.”
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="https://www.wikiart.org/en/pierre-auguste-renoir/la-grenouillere-1869">
+          <img src="La Grenouillère (The Frog Pond).png" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> La Grenouillère (The Frog Pond)<br>
+            <br>
+            <b>Name of artist:</b> Pierre-Auguste Renoir<br>
+            <br>
+            <b>Description:</b> At the popular outdoor bathing spot and bar La Grenouillère, Renoir and Monet, not yet financially successful artists, painted images of middle-class leisure that they hoped to sell to its wealthy clientele. As they worked closely alongside one another, the two simultaneously developed several of the theories, techniques, and practices that would give rise to Impressionism. Both artists painted this scene from this exact vantage point. If Monet's gives a broader perspective and focuses more on the vivid effects of light on the water and surrounding trees, then Renoir's version gives a closer view of the fashionable denizens of the popular resort.
+        </div>
+      </div>
+    </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="https://www.wikiart.org/en/pierre-auguste-renoir/ball-at-the-moulin-de-la-galette-1876">
+        <img src="Dance at the Moulin de la Galette.png" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc" style="color:rgb(118, 33, 62);font-family: Verdana, Geneva, Tahoma"><b>Name of art:</b> Dance at the Moulin de la Galette<br>
+          <br>
+          <b>Name of artist:</b> Pierre-Auguste Renoir<br>
+          <br>
+          <b>Description:</b> Universally considered among Renoir's masterpieces, Dance at the Moulin de la Galette is a snapshot of everyday life in the fashionable neighborhood of Montmartre. The courtyard of the Moulin de la Galette, still in operation today, was a gathering place for working-class drinking, dining, and dancing. Moulin presented Renoir with a true and unique challenge: the sheer quantity of people, details, and viewpoints to capture, combined with the flickering sunlight and inherent movement that came with such a scene, was an awesome undertaking.
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <hr/>
+
+  <footer align="center">&copy; Copyright 2022 Impresso Espresso</footer>
+</body>
+</html>
